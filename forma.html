@@ -1,0 +1,46 @@
+﻿<html>
+   <head>
+     <link href="css/style-form.css" type="text/css" rel="stylesheet">
+     </head>
+	 <title>Forma</title>
+     <body>
+	 <div id="wrapper">
+	 <form action="formdata.php" method="POST" name="form1">
+	 <fieldset>
+	 <legend>vvod lichnix dannix</legend>
+	 <p class="vopros"><label for="name">greceq dzer anun@(maximum 10 sinvol) :</label></p>
+	 <p><input class="input" type="text" name="name" id="name" size="30" maxlength="10"></p>
+	 <p class="vopros"><label for="password"> greceq dzer parol@ (maximum 10 sinvol) :</label> </p>
+	 <p><input class="input" type="password" name="password" id="password" size="30" maxlength="10"></p>
+	 </fieldset>
+	 <fieldset>
+	 <legend> lichnie vaprosi </legend>
+	 <p class="vopros"> wi lyubite ekanomit vremya ?</p>
+	 <p><label>da<input type="radio" name="time" value="yes" checked></label> <label>net<input type="radio" name="time" value="no"></label></p> 
+	 <p class="vopros">shabatva vor orern eq sirum ?</p>
+	 <p>
+	 <label><input type="checkbox" name="z" disabled> eskushabti</label>
+	 <label><input type="checkbox" name="az">shabat</label>
+	 <label><input type="checkbox" name="vaz">kiraki</label>
+	 </p>
+	 
+	 <p class="vopros"><label for="sleep">skolko chasov vi spite ?</label></p>
+	 <p>
+	 <select name="sleep" id="sleep">
+	 <option>1</option>
+	 <option>2</option>
+	 <option>3</option>
+	 <option selected>4</option>
+	 </select>
+	 </fieldset>
+	 </p>
+	 <p class="vopros tp"><label for="text"> padelites s druzyanmi</label></p>
+	 <p><textarea name="text" cols="50" rows="10" id="text" >textoviy text ...</textarea></p>
+     <p><input type="reset" name="reset" value="sbros"><input type="submit" name="submit" value="otpravit"></P>
+	 <p><input type="image" src="images/ibutton.png" name="imagbutton"></P>
+	 <p><input type="button" name="button" value="knopka"></p>
+	
+   </form>
+   </div>
+  </body>
+</html>  	 
